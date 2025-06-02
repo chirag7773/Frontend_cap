@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with base URL from environment variables
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:5109/api',
+  baseURL: process.env.REACT_APP_API_URL || 'https://lmsbackend-c0ggg2apfsgreeap.japaneast-01.azurewebsites.net/api',
   headers: {
     'Content-Type': 'application/json',
   },
